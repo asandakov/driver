@@ -79,7 +79,6 @@
 		FA7E166C25B99B8600523F17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E166B25B99B8600523F17 /* User.swift */; };
 		FA7E167025B9A80200523F17 /* Logon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E166F25B9A80200523F17 /* Logon.swift */; };
 		FA7E167325B9A81500523F17 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E167225B9A81500523F17 /* Token.swift */; };
-		FA7E167625B9C3E400523F17 /* RealmStorageCoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E167525B9C3E400523F17 /* RealmStorageCoreService.swift */; };
 		FA7E167B25B9C95D00523F17 /* TokenTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E167A25B9C95D00523F17 /* TokenTable.swift */; };
 		FA7E168125B9CDE600523F17 /* factoryDbStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E168025B9CDE600523F17 /* factoryDbStorageService.swift */; };
 		FA7E168425B9CE0B00523F17 /* TokenDbStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E168325B9CE0B00523F17 /* TokenDbStorageService.swift */; };
@@ -126,6 +125,7 @@
 		FA7E172E25BDC4A600523F17 /* NavigationTitle + subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E172D25BDC4A500523F17 /* NavigationTitle + subtitle.swift */; };
 		FA7E173425BE07EA00523F17 /* OrderDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E173325BE07EA00523F17 /* OrderDetailTableViewCell.swift */; };
 		FA7E173825BED10400523F17 /* String + phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E173725BED10400523F17 /* String + phone.swift */; };
+		FA8C6C2525C5F71B0017B26F /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C6C2425C5F71B0017B26F /* CoreDataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,7 +206,6 @@
 		FA7E166B25B99B8600523F17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FA7E166F25B9A80200523F17 /* Logon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logon.swift; sourceTree = "<group>"; };
 		FA7E167225B9A81500523F17 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
-		FA7E167525B9C3E400523F17 /* RealmStorageCoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealmStorageCoreService.swift; path = driver/Source/StorageCoreService/RealmStorageCoreService.swift; sourceTree = SOURCE_ROOT; };
 		FA7E167A25B9C95D00523F17 /* TokenTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTable.swift; sourceTree = "<group>"; };
 		FA7E168025B9CDE600523F17 /* factoryDbStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = factoryDbStorageService.swift; sourceTree = "<group>"; };
 		FA7E168325B9CE0B00523F17 /* TokenDbStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDbStorageService.swift; sourceTree = "<group>"; };
@@ -253,6 +252,7 @@
 		FA7E172D25BDC4A500523F17 /* NavigationTitle + subtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationTitle + subtitle.swift"; sourceTree = "<group>"; };
 		FA7E173325BE07EA00523F17 /* OrderDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailTableViewCell.swift; sourceTree = "<group>"; };
 		FA7E173725BED10400523F17 /* String + phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + phone.swift"; sourceTree = "<group>"; };
+		FA8C6C2425C5F71B0017B26F /* CoreDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,8 +343,8 @@
 		FA7E131C25B318B100523F17 /* StorageCoreService */ = {
 			isa = PBXGroup;
 			children = (
+				FA8C6C2425C5F71B0017B26F /* CoreDataStorage.swift */,
 				FA7E157425B3218B00523F17 /* RealmStorageCoreService.swift */,
-				FA7E167525B9C3E400523F17 /* RealmStorageCoreService.swift */,
 			);
 			name = StorageCoreService;
 			path = "/Users/alex/Работа/IOS/Разработка/driver/driver/Source/StorageCoreService";
@@ -1213,7 +1213,6 @@
 				FA7E12F125B315B600523F17 /* String + Currency.swift in Sources */,
 				FA7E16C525BC592800523F17 /* OrderDetailCoordinator.swift in Sources */,
 				FA7E165125B8A18200523F17 /* AuthData.swift in Sources */,
-				FA7E167625B9C3E400523F17 /* RealmStorageCoreService.swift in Sources */,
 				FA7E16E825BC6E3900523F17 /* OrderMapView.swift in Sources */,
 				FA7E158925B3257E00523F17 /* BaseCoordinator.swift in Sources */,
 				FA7E15D325B5902600523F17 /* AuthViewControllerProtocol.swift in Sources */,
@@ -1253,6 +1252,7 @@
 				FA7E162225B738FA00523F17 /* SplashModuleFactoryProtocol.swift in Sources */,
 				FA7E158C25B3259900523F17 /* CoordinatorProtocol.swift in Sources */,
 				FA7E130E25B3180100523F17 /* NetworkCore.swift in Sources */,
+				FA8C6C2525C5F71B0017B26F /* CoreDataStorage.swift in Sources */,
 				FA7E173425BE07EA00523F17 /* OrderDetailTableViewCell.swift in Sources */,
 				FA7E15F525B716A300523F17 /* MainCoordinator.swift in Sources */,
 				FA7E16B425BB698800523F17 /* OrderNetworkService.swift in Sources */,
