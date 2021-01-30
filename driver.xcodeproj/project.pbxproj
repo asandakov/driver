@@ -30,7 +30,7 @@
 		FA7E157025B3214200523F17 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E156C25B3214200523F17 /* Fonts.swift */; };
 		FA7E157125B3214200523F17 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E156D25B3214200523F17 /* Images.swift */; };
 		FA7E157225B3214200523F17 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E156E25B3214200523F17 /* Colors.swift */; };
-		FA7E157525B3218B00523F17 /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E157425B3218B00523F17 /* CoreDataStorage.swift */; };
+		FA7E157525B3218B00523F17 /* RealmStorageCoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E157425B3218B00523F17 /* RealmStorageCoreService.swift */; };
 		FA7E158925B3257E00523F17 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E158825B3257E00523F17 /* BaseCoordinator.swift */; };
 		FA7E158C25B3259900523F17 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E158B25B3259900523F17 /* CoordinatorProtocol.swift */; };
 		FA7E158F25B325AF00523F17 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E158E25B325AF00523F17 /* BaseViewController.swift */; };
@@ -157,7 +157,7 @@
 		FA7E156C25B3214200523F17 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		FA7E156D25B3214200523F17 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		FA7E156E25B3214200523F17 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		FA7E157425B3218B00523F17 /* CoreDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataStorage.swift; path = Source/StorageCoreService/CoreDataStorage.swift; sourceTree = "<group>"; };
+		FA7E157425B3218B00523F17 /* RealmStorageCoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorageCoreService.swift; sourceTree = "<group>"; };
 		FA7E158825B3257E00523F17 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		FA7E158B25B3259900523F17 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		FA7E158E25B325AF00523F17 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -343,11 +343,11 @@
 		FA7E131C25B318B100523F17 /* StorageCoreService */ = {
 			isa = PBXGroup;
 			children = (
-				FA7E157425B3218B00523F17 /* CoreDataStorage.swift */,
+				FA7E157425B3218B00523F17 /* RealmStorageCoreService.swift */,
 				FA7E167525B9C3E400523F17 /* RealmStorageCoreService.swift */,
 			);
 			name = StorageCoreService;
-			path = /Users/alex/ios/driver/driver;
+			path = "/Users/alex/Работа/IOS/Разработка/driver/driver/Source/StorageCoreService";
 			sourceTree = "<absolute>";
 		};
 		FA7E132B25B31BEB00523F17 /* Resources */ = {
@@ -1257,7 +1257,7 @@
 				FA7E15F525B716A300523F17 /* MainCoordinator.swift in Sources */,
 				FA7E16B425BB698800523F17 /* OrderNetworkService.swift in Sources */,
 				FA7E15F925B716CC00523F17 /* MainViewControllerProtocol.swift in Sources */,
-				FA7E157525B3218B00523F17 /* CoreDataStorage.swift in Sources */,
+				FA7E157525B3218B00523F17 /* RealmStorageCoreService.swift in Sources */,
 				FA7E157125B3214200523F17 /* Images.swift in Sources */,
 				FA7E15EB25B7151000523F17 /* SplashViewControllerProtocol.swift in Sources */,
 				FA7E160E25B7184200523F17 /* OrderListViewControllerProtocol.swift in Sources */,
