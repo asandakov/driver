@@ -1,0 +1,90 @@
+/*
+  Localizable.strings
+  driver
+
+  Created by Алексей on 16.01.2021.
+  
+*/
+//MARK: App
+"app.name" = "Доставка 24";
+
+//MARK: Netrwork
+"netrwork.error.json" = "Техничиская ошибка. Попробуйте позже";
+
+//MARK: Token
+"token.error" = "Техничиская ошибка. Попробуйте позже";
+
+//MARK: Error
+"error.support" = "Техничиская ошибка. Попробуйте позже";
+
+//MARK: Auth [SignInFlow]
+"auth.name" = "Вход в систему";
+"auth.login" = "Логин";
+"auth.password" = "Пароль";
+"auth.send" = "Вход";
+"auth.error.no_auth" = "Не верно введен логин или пароль";
+"auth.error.empty_field" = "Введите логин и пароль";
+
+
+//MARK: Profil [ProfilFlow]
+"profil.title" = "Профиль";
+"profil.param.fio" = "Фамилия и Имя";
+"profil.param.fio.name" = "Неизвестный";
+"profil.param.date" = "Дата последней авторизация";
+"profil.exit" = "Выйти";
+"profil.alert.ok.button" = "Ок";
+"profil.alert.title" = "Выйти";
+"profil.alert.message" = "Вы точно хотите выйти?";
+"profil.tab" = "Профиль";
+
+//MARK: OrderList [OrderListFlow]
+"order.title" = "Список заказов";
+"order.search.placeholder" = "Поиск по номеру заказа";
+"order.type.active" = "Активные";
+"order.type.active_no" = "Доставленные";
+"order.view.map" = "Карта";
+"order.view.list" = "Список";
+"order.list.action" = "Доставлен";
+"order.alert.action.ok.button" = "да";
+"order.alert.action.title" = "Заказ %s доставлен?";
+"order.alert.action.message" = "Заказ доставлен";
+"order.tab" = "Список";
+
+//MARK: OrderMap [OrderDetailFlow]
+"order.detail.map.title" = "Карта";
+"order.detail.map.subtitle" = "Заказ №%s";
+
+//MARK: OrderDetail [OrderDetailFlow]
+"order.detail.title" = "Заказ №%s";
+"order.detail.subtitle" = "Заказ";
+"order.detail.back" = "Назад";
+"order.detail.param.id" = "Индификатор заказа";
+"order.detail.param.number" = "Номер заказа";
+"order.detail.param.fio" = "Получатель";
+"order.detail.param.phone" = "Телефон";
+"order.detail.param.price" = "Цена";
+"order.detail.param.dateDelivery" = "Дата доставки";
+"order.detail.param.interval" = "Интервал";
+"order.detail.param.addres" = "Адрес";
+"order.detail.param.status" = "Статус";
+"order.detail.param.description" = "Описание";
+
+//MARK: OrderListMap [OrderListMapFlow]
+"order.map.title" = "Карта заказов";
+"order.map.tab" = "Карта";
+
+
+//MARK: Alert
+"alert.ok.button" = "Ок";
+"alert.cansel.button" = "Отмена";
+"alert.title" = "Сообщение";
+
+//MARK: AlertError
+"alert.error.title" = "Ошибка";
+"alert.error.message" = "Техническая ошибка. Попробуйте позже";
+
+//MARK: AlertNetwork
+"alert.network.message" = "Техническая ошибка. Попробуйте позже";
+
+
+
